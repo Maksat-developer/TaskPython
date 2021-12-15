@@ -1,10 +1,10 @@
 
-Task 8
+# Task 8
 def choice_to_number(choice):
-    pass # Your code
+
 
 def number_to_choice(number):
-    pass # Your code
+
 
 def test_choice_to_number():
   assert choice_to_number('Usain') == 1

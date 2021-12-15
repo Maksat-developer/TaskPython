@@ -1,7 +1,9 @@
-
-Task 6
+# Task 6
 def bigger_guy(age, age1):
-    #Your code
+  if age > age1:
+    return age
+  else:
+    return age1
 def test_bigger_guy():
   assert bigger_guy(1, 2) == 2
   assert bigger_guy(10, 20) == 20

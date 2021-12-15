@@ -1,6 +1,6 @@
-Task 4
+# Task 4
 def last_letter(word):
-    #Your code
+  return word[-1]
 def test_last_letter():
   assert last_letter('hello!') == '!'
   assert last_letter('banana') == 'a'

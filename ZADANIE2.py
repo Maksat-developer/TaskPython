@@ -1,9 +1,7 @@
 # Task 2
 def square_number(num):
     if  num ** 2:
-      return True
-    else:
-      return False
+      return num ** 2
 def test_square_number():
   assert square_number(2) == 4
   assert square_number(8) == 64

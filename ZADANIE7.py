@@ -1,6 +1,11 @@
-Task 7
+# Task 7
 def biggest_guy(age, age1, age2):
-    #Your code
+  if age > age1 and age > age2:
+    return age
+  elif age1 > age and age1 > age2:
+    return age1
+  else:
+    return age2
 def test_biggest_guy():
   try:
     assert biggest_guy(1, 3, 2) == 3
@@ -13,5 +18,5 @@ def test_biggest_guy():
     print(e)
     print("Wrong!!")
 
-  print("Correct buddy!!!")
+print("Correct buddy!!!")
 test_biggest_guy()

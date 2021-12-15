@@ -1,6 +1,6 @@
-Task 5
+# Task 5
 def string_length(word):
-    #Your code
+    return len(word)
 def test_string_length():
   assert string_length('hello!') == 6
   assert string_length('banana') == 6
